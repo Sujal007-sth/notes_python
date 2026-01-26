@@ -1,9 +1,10 @@
 #constructer= init function (executes when an object is created )
 #all classes have a init func, which is always executed when an obj is created
+#when 
 class Student:
     
     def __init__(self):
-        print(self)#self is always latest parameter (in this it is s1)
+        print(self)#self is always latest parameter (in this it is s1) or self is the obj being used currently 
         print('adding new student in database')
     
 

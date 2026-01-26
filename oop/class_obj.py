@@ -20,4 +20,11 @@ s2 = Student()
 print(s2.name)
 
 
+class Car:
+    brand = "BMW"
+    model = "X5"
+    year = 2020   
+    color = "blue"
 
+car1 = Car()
+print(car1.model)       
